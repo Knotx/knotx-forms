@@ -3,7 +3,7 @@ You can find here separate modules with basic code example of extending _Knot.x 
 
 ## Adapter starterkit
 
-Module with very basic implementation of Data Source adapter.
+Module with very basic implementation of Forms adapter.
 
  - `ExampleFormsAdapter` [_Verticle_](http://vertx.io/docs/apidocs/io/vertx/core/Verticle.html) implementation to integrate with _Knot.x_
  - `ExampleFormsAdapterProxy` Proxy to handle incoming request
