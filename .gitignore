@@ -4,6 +4,7 @@
 .classpath
 .settings
 generated
+.dataobjects
 
 # Gradle files
 build

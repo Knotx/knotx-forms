@@ -136,7 +136,9 @@ Implementing Forms Adapter that meets your project requirements allows
 you to adopt request from Knot.x into request understandable by an endpoint service, and adopts 
 responses from that service into unified message understandable by Knot.x.
 
-For you convenience, Knot.x is shipped with a example [Forms Adapter](https://github.com/Knotx/knotx-example-project/tree/master/acme-action-adapter-http).
+Please check the [Adapter Starterkit](https://github.com/Knotx/knotx-forms/how-to-extend/adapter-starterkit) as a starting point for your implementation.
+
+For you convenience, Knot.x is shipped with a example [Forms Adapter](https://github.com/Knotx/knotx-example-project/tree/master/acme-forms-adapter-http).
 
 Writing custom Forms Adapter requires fulfilling Forms Knot.
 
