@@ -24,7 +24,7 @@ public class ExampleFormsAdapterOptions {
   private String address;
 
   public ExampleFormsAdapterOptions(JsonObject config) {
-    ExampleFormsOptionsConverter.fromJson(config, this);
+    ExampleFormsAdapterOptionsConverter.fromJson(config, this);
   }
 
   public String getAddress() {
@@ -43,7 +43,7 @@ public class ExampleFormsAdapterOptions {
    */
   public JsonObject toJson() {
     JsonObject json = new JsonObject();
-    ExampleFormsOptionsConverter.toJson(this, json);
+    ExampleFormsAdapterOptionsConverter.toJson(this, json);
     return json;
   }
 }
