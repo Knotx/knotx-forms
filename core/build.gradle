@@ -20,7 +20,7 @@ compileJava.dependsOn annotationProcessing
 dependencies {
     compileOnly project(':knotx-forms-api')
     testCompile project(':knotx-forms-api')
-    testCompileOnly group: 'io.knotx', name: 'knotx-core', version: '1.5.0-SNAPSHOT', classifier: 'tests'
+    testCompileOnly group: 'io.knotx', name: 'knotx-core', version: project.version, classifier: 'tests'
 }
 
 
