@@ -18,11 +18,11 @@ description = "Knot.x Forms Integration Tests"
 compileJava.dependsOn annotationProcessing
 
 dependencies {
-  compileOnly project(':knotx-forms-api')
-  compileOnly project(':knotx-forms-core')
-  compileOnly "io.vertx:vertx-web-client"
+  implementation project(':knotx-forms-api')
+  implementation project(':knotx-forms-core')
+  implementation "io.vertx:vertx-web-client"
 
-  testCompile project(':knotx-forms-api')
-  testCompile project(':knotx-forms-core')
-  testCompile "io.vertx:vertx-web-client"
+  testImplementation project(':knotx-forms-api')
+  testImplementation project(':knotx-forms-core')
+  testImplementation "io.vertx:vertx-web-client"
 }

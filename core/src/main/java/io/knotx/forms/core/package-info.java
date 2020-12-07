@@ -13,14 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-description = "Knot.x Forms Core"
+@ModuleGen(name = "knotx-forms-core", groupPackage = "io.knotx")
+package io.knotx.forms.core;
 
-compileJava.dependsOn annotationProcessing
-
-dependencies {
-    api project(':knotx-forms-api')
-    testImplementation project(':knotx-forms-api')
-    testImplementation group: 'io.knotx', name: 'knotx-core', version: project.version, classifier: 'tests'
-}
-
-
+import io.vertx.codegen.annotations.ModuleGen;
