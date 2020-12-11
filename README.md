@@ -1,6 +1,6 @@
 > If you are looking for examples with Knot.x 1.X version please see this repository Tags,
-the latest 1.5.0 version code is available
-[here](https://github.com/Knotx/knotx-example-project/tree/1.5.0).
+the latest 1.6.0 version code is available
+[here](https://github.com/Knotx/knotx-forms/tree/1.6.0).
 
 > This module is **NOT** supported in Knot.x 2.0.
 
